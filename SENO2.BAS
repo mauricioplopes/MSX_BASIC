@@ -1,0 +1,23 @@
+10 SCREEN 2
+20 WIDTH 32
+30 KEY OFF
+40 CLS
+50 P = 3.1415926535
+60 A = 60
+70 F = 2
+80 O = 100
+
+85 ' Desenha o eixo X
+86 LINE (0, O)-(255, O), 15
+87 ' Desenha o eixo Y
+88 LINE (0, 0)-(0, 191), 15
+
+90 FOR X = 0 TO 255
+100 Y = A * SIN(F * X * P / 180)
+110 Y = O - Y
+120 PSET (X, Y), 2
+130 NEXT X
+140 IF INKEY$ = "" THEN 140
+150 SCREEN 0
+160 KEY ON
+170 END
