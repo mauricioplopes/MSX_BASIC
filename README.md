@@ -24,7 +24,7 @@ To run these programs, you'll need:
 
 1. Clone or download this repository
 2. Transfer files to your MSX system (via floppy, cassette, or SD card depending on your setup)
-3. In MSX BASIC: RUN <RETURN>
+3. In MSX BASIC: Type RUN command and RETURN key
 
 ## Programs descriptions
 
